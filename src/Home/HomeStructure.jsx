@@ -6,7 +6,7 @@ import './HomeStructure.less'
 
 export default function HomeStructure() {
   return (
-   <section className="HomeStructure">
+   <section className="HomeStructure V1">
         <div className="HomeStructure__div1">
             <Header/>
             <Contents/>
