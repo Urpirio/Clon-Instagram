@@ -13,7 +13,14 @@ export default function Bnavegacion() {
     const [ShowSearch, SetshowSearch] = useState(true);
 
     const ventana0 = () => {//Home
-        window.location.href = '/';
+       for(let x = 1 ; x < 5; x++){
+        if( x == 1){
+            document.querySelector(`.V${x}`).style.display = 'flex';
+        }else{
+            document.querySelector(`.V${x}`).style.display = 'none';
+        }
+        
+       };
     };
     const ventana1 = () => {//search
 
@@ -23,13 +30,33 @@ export default function Bnavegacion() {
 
     };
     const ventana2 = () => {//explore
-        window.location.href = '/Explore';
+        for(let x = 1 ; x < 5; x++){
+            if( x == 2){
+                document.querySelector(`.V${x}`).style.display = 'flex';
+            }else{
+                document.querySelector(`.V${x}`).style.display = 'none';
+            }
+         };
     };
     const ventana3 = () => {//Reels
-        
+        for(let x = 1 ; x < 5; x++){
+            if( x == 3){
+                document.querySelector(`.V${x}`).style.display = 'flex';
+            }else{
+                document.querySelector(`.V${x}`).style.display = 'none';
+            }
+            
+           };
     };
     const ventana4 = () => {//Messages
-        
+        for(let x = 1 ; x < 5; x++){
+            if( x == 4){
+                document.querySelector(`.V${x}`).style.display = 'flex';
+            }else{
+                document.querySelector(`.V${x}`).style.display = 'none';
+            }
+            
+           };
     };
     const ventana5 = () => {//Notifications
         
