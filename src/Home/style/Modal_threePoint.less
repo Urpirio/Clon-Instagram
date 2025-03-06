@@ -1,0 +1,188 @@
+.Modal_ThreeP{
+    width: 97.9%;
+    height: 95.5%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    background: #5959597c;
+    border: none;
+
+    .Modal_ThreeP_div1{
+        width: 10cm;
+        // height: 12cm;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-around;
+        background: white;
+        border-radius: 20px;
+        // border: 1px solid black;
+        // justify-content: space-between;
+
+        .GSpan{
+            width: 100%;
+            height: 1cm;
+            display: flex;
+            justify-content: center;
+            
+            align-items: center;
+            font-weight: 300;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #DDDDDD;
+            cursor: pointer;
+
+        }
+        .top{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .bottom{
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom: none;
+        }
+        .red{
+            color: #ED4956;
+            font-weight: 600;
+        }
+        .None{
+            border-bottom:none;
+            &:hover{
+                background: #DDDDDD;
+            }
+        }
+        .ReportSpan{
+            width: 94%;
+            height: 1cm;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 300;
+            padding: 10px;
+            border-bottom: 1px solid #DDDDDD;
+            cursor: pointer;
+            &:hover{
+                background: #DDDDDD;
+            }
+            
+        }
+        
+        .divC{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            padding: 10px;
+            .IconCheck{
+                height: 1cm;
+                width: 1cm;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                color: #58C322;
+                font-size: 30px;
+                font-weight: 900;
+                border: 4px solid #58C322;
+                border-radius: 100%;
+            }
+            .LinkC{
+                &::before{
+                    content: "When you see something you don't like on Instagram, you can report it if it doesn't follow our";
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+                &::after{
+                    content:  "or you can remove the person who shared it from your experience.";
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+                a{
+                    color: #00376B;
+                    cursor: pointer;
+                    transition: 300ms;
+                    &:hover{
+                        border-bottom: 1px solid #00376B;
+                    }
+                }
+            }
+            .divM{
+                width: 95%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                h2{
+                    margin: 0;
+                    font-size: 16px;
+                }
+                p{
+                    margin: 0;
+                    text-align: center;
+                    font-size: 14px;
+                }
+
+
+            }
+        }
+        .L1{
+            i{
+                font-size: 30px;
+                font-weight: 300;
+                color: gray;
+            }
+
+        }
+        .L2{
+            i{
+                font-size: 30px;
+                font-weight: 300;
+                color: gray;
+
+            }
+
+        }
+        .L3{
+            // span{
+            //     width: 8.6cm;
+            // }
+            i{
+                font-size: 30px;
+                font-weight: 300;
+                color: gray;
+
+            }
+
+        }
+        .divbtn{
+            width: 90%;
+            padding: 15px;
+            
+            button{
+                height: 0.9cm;
+                width: 100%;
+                color: white;
+                font-size: 16px;
+                border: none;
+                border-radius: 10px;
+                background: #0095F6;
+                transition: 300ms;
+                cursor: pointer;
+                &:hover{
+                    background: #1877F2;
+                }
+
+
+            }
+        }
+        
+    }
+
+}
