@@ -8,30 +8,34 @@ const DataContents = [
         Hour: '6h',
         Publicacion: Paisaje,
         Description: 'Hermoso Atardecer',
+        Number: '1',
 
     },
     {
         FotoPerfil: FotoJohanMontas,
-        UserName: 'Johan009',
+        UserName: 'JavierN',
         Hour: '6h',
         Publicacion: Paisaje,
         Description: 'Hermoso Atardecer',
+        Number: '2',
 
     },
     {
         FotoPerfil: FotoJohanMontas,
-        UserName: 'Johan009',
+        UserName: 'MiguelA',
         Hour: '6h',
         Publicacion: Paisaje,
         Description: 'Hermoso Atardecer',
+        Number: '3',
 
     },
     {
         FotoPerfil: FotoJohanMontas,
-        UserName: 'Johan009',
+        UserName: 'Batuce52',
         Hour: '6h',
         Publicacion: Paisaje,
         Description: 'Hermoso Atardecer',
+        Number: '4',
 
     },
     
