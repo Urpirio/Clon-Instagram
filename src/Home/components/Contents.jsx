@@ -1,11 +1,21 @@
-// import React from 'react'
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
 import DataContents from "../Data/DataContents";
 import '../style/Contents.less';
+// import { useState } from "react";
 
+export let UserDenuncia;
 export default function Contents() {
 
+    // const [ShowModalThree, SetShowModalThree] = useState(true);
+
     const Contents = (props) => {
+
+
+        const ModalThree = () => {
+                document.querySelector('.Modal_ThreeP').style.display = 'flex';
+                UserDenuncia = props.Number;
+        };
+
         return(
         <div className="CC__div1">
             <div className="CC__div1_header">
@@ -19,7 +29,7 @@ export default function Contents() {
                     </span>
                 </div>
                 <div className="CC__div1_header_dv2">
-                    <span>...</span>
+                    <span onClick={ModalThree}>...</span>
                 </div>
             </div>
             <div className="CC__div1_publicacion">
@@ -52,6 +62,7 @@ export default function Contents() {
             Description = {DC.Description}
             Hour = {DC.Hour}
             FotoPerfil = {DC.FotoPerfil}
+            Number = {DC.Number}
             />
         )
     })
