@@ -1,5 +1,5 @@
 // import React from 'react';
-import FotoPerfil from '../img/Fotoperfil.png';
+import FotoPerfil from '../Img/DataContent_Img/FotoPerfil/Fotoperfil.png';
 import '../style/Perfil.less';
 
 
