@@ -19,7 +19,7 @@ const DataContents = [
         className: 'Johan009',
         classNameF: 'Johan009F',
         BoleanoF: false,
-
+        BoleanoG: false,
     },
     {
         FotoPerfil: HombreR,
@@ -31,6 +31,7 @@ const DataContents = [
         className: 'JavierN',
         classNameF: 'JavierNF',
         BoleanoF: false,
+        BoleanoG: false,
 
     },
     {
@@ -43,7 +44,7 @@ const DataContents = [
         className: 'MiguelA',
         classNameF: 'MiguelAF',
         BoleanoF: false,
-
+        BoleanoG: false,
     },
     {
         FotoPerfil: PixarAnimation,
@@ -55,7 +56,7 @@ const DataContents = [
         className: 'Batuce52',
         classNameF: 'Batuce52F',
         BoleanoF: false,
-
+        BoleanoG: false,
     },
     
 ]
