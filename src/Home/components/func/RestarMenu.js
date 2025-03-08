@@ -1,5 +1,6 @@
 import DataContents from "../../Data/DataContents";
 import { UserClick } from "./Modalthree";
+// import { GoToPost_Active } from "./GotoPost";
 import Report from "./Report";
 import Unfollow from "./Unfollow";
 import Add_to_Favorites from "./AddtoFavorites";
@@ -60,14 +61,24 @@ const RestarMenu = () => {//Se encarga de volver todo a la normalidad despues de
                     
                 continue;
             }else if(x == 4){
-                let span4 = document.createElement('span');
-                span4.className = 'GSpan S4';
-                span4.innerText = 'Go to post';
-                span4.addEventListener('click',()=>{
-                    GotoPost();
-                });
-                Modal_ThreeP_div1.append(span4);
-                continue;
+                const LargoArray = DataContents.length;
+                for(let x = 0; x < LargoArray ; x++){
+                   if(DataContents[x].Number == UserClick){
+                    if(DataContents[x].BoleanoG != true){
+                        let span4 = document.createElement('span');
+                        span4.className = 'GSpan S4';
+                        span4.innerText = 'Go to post';
+                        span4.addEventListener('click',()=>{
+
+                        // DataContents[x].BoleanoG = true;
+                        GotoPost();
+                        });
+                        Modal_ThreeP_div1.append(span4);
+                    }else{
+                        continue;
+                    };
+                   };
+                }
             }else if(x == 5){
                 let span5 = document.createElement('span');
                 span5.className = 'GSpan S5';
