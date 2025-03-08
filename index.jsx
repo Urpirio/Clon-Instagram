@@ -3,11 +3,17 @@ import { StrictMode } from "react";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router";
 import Structure from "./src/Structure";
+import Gstructure from "./src/Gstructure";
+import Prueba from "./Prueba";
 
 const Routes = createBrowserRouter([
     {
         path: '/',
-        element: <Structure/>
+        element: <Gstructure/>
+    },
+    {
+        path: '/PEPE',
+        element: <Prueba/>
     }
 ]);
 
