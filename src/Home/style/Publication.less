@@ -1,0 +1,89 @@
+.PublicationContainer{
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    // background: gray;
+    .divG{
+        // width: 70%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid gray;
+        background: white;
+        .DivImg{
+            
+            // border-right: none;
+            // width:60%;
+            img{
+                height: 100%;
+                // width: 100%;
+            }
+        }
+        .DivInfo{
+            display: flex;
+            width: 10cm;
+            // border: 1px solid gray;
+            // border-left: none;
+            .GSpanH{
+                height: 1.5cm;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px;
+                // background: gray;
+                border-bottom: 1px solid gray;
+                .SpanH{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    // padding: 10px;
+                    .SpanPerfil{
+                        height: 55px;
+                        width: 55px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: linear-gradient(red,orange,yellow);
+                        border-radius: 100%;
+                        .perfilImg{
+                            height: 50px;
+                            width: 50px;
+                            border-radius: 100%
+                        }
+                    }
+                    .UserName{
+                        font-size: 14px;
+                        font-weight: 500;
+                        &::after{
+                            content: '•';
+                            margin-left: 5px;
+                            color: #737373;
+                        }
+                    }
+                    
+                    .Spanf{
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: #262626;
+                    }
+                }
+                .SpanThreeP{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    // background: blue;
+                    i{
+                        margin-bottom: 15px;
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+    
+};
