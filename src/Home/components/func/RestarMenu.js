@@ -7,7 +7,10 @@ import Add_to_Favorites from "./AddtoFavorites";
 import GotoPost from "./GotoPost";
 import Shareto from "./ShareTo";
 import Copy_link from "./Copy_Link";
+import Embed from "./Embed";
+import About_This_Account from "./About_This_Account";
 import Cancel from "./Cancel";
+
 
 
 const RestarMenu = () => {//Se encarga de volver todo a la normalidad despues de cerrar un proceso
@@ -102,7 +105,7 @@ const RestarMenu = () => {//Se encarga de volver todo a la normalidad despues de
                 span7.className = 'GSpan S7';
                 span7.innerText = 'Embed';
                 span7.addEventListener('click',()=>{
-
+                    Embed()
                 });
                 Modal_ThreeP_div1.append(span7);
                 continue;
@@ -111,7 +114,7 @@ const RestarMenu = () => {//Se encarga de volver todo a la normalidad despues de
                 span8.className = 'GSpan S8';
                 span8.innerText = 'About this account';
                 span8.addEventListener('click',()=>{
-
+                    About_This_Account()
                 });
                 Modal_ThreeP_div1.append(span8);
                 
