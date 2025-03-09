@@ -1,5 +1,19 @@
 // import { options } from "less";
 // import { build } from "vite";
+import DataContents from "./DataContents";
+import { UserClick } from "../components/func/Modalthree";
+
+
+const Prueba = () => {
+        const LargoArray = DataContents.length;
+        for(let x = 0 ; x < LargoArray ; x++){
+           if(UserClick == DataContents[x].Number){
+                return DataContents[x].FechaSignIn;
+           }else{
+             continue;
+           };
+        };
+}
 
 const DataModalThree = [
     {
@@ -167,7 +181,62 @@ const DataModalThree = [
                 Icon: `<i class='bx bx-link-alt' ></i>`,
                 link: '',
             },
+        ],
+        About_This_Account: [
+            {
+                Icon: `<i class='bx bx-calendar' ></i>`,
+                Title: 'Date joined',
+                Description: Prueba,
+            },
+            {
+                Icon: `<i class='bx bx-map' ></i>`,
+                Title: 'Account based in',
+                Description: ()=>{
+                    const LargoArray = DataContents.length;
+                    for(let x = 0 ; x < LargoArray ; x++){
+                       if(UserClick == DataContents[x].Number){
+                            return DataContents[x].Country;
+                       }else{
+                         continue;
+                       };
+                    };
+                },
+            },
+            {
+                Icon: `<i class='bx bx-dollar-circle'></i>`,
+                Title: 'Active ads',
+                Description: ()=>{
+                    const LargoArray = DataContents.length;
+                    for(let x = 0 ; x < LargoArray ; x++){
+                       if(UserClick == DataContents[x].Number){
+                            return `See ${DataContents[x].UserName}'s ads in the Meta Ad Library.`;
+                       }else{
+                         continue;
+                       };
+                    };
+                    
+                },
+            },
+            {
+                Icon: `<i class='bx bx-badge-check'></i>`,
+                Title: 'Verified',
+                Description: ()=> {
+                    const LargoArray = DataContents.length;
+                    for(let x = 0 ; x < LargoArray ; x++){
+                       if(UserClick == DataContents[x].Number){
+                            if(DataContents[x].Verificado === true){
+                                return DataContents[x].FechaV;
+                            }else{
+                                return 'No esta Verificado';
+                            };
+                       }else{
+                         continue;
+                       };
+                    };
+                },
+            },
+            
         ]
     }
-]
+];
 export default DataModalThree;
