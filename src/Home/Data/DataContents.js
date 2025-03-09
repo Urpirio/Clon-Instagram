@@ -2,7 +2,6 @@ import ChicoNike from '../Img/DataContent_Img/FotoPerfil/ChicoNike.png';
 import HombreR from '../Img/DataContent_Img/FotoPerfil/HombreR.png';
 import PixarAnimation from '../Img/DataContent_Img/FotoPerfil/PixarAnimation.png';
 import SpiderMan  from '../Img/DataContent_Img/FotoPerfil/Spiderman.png';
-
 import Paisaje from '../Img/DataContent_Img/FotoPubliciones/Paisaje.png'
 import NoWayHome from '../Img/DataContent_Img/FotoPubliciones/NowayHome.png';
 import Codejs from '../Img/DataContent_Img/FotoPubliciones/CodesJs.png';
@@ -20,6 +19,12 @@ const DataContents = [
         classNameF: 'Johan009F',
         BoleanoF: false,
         BoleanoG: false,
+        Verificado: false,
+        FechaV: '',
+        Country: 'Estados Unidos',
+        FechaSignIn: 'November 2022',
+        ClassModalP: 'Johan009P',
+
     },
     {
         FotoPerfil: HombreR,
@@ -32,6 +37,19 @@ const DataContents = [
         classNameF: 'JavierNF',
         BoleanoF: false,
         BoleanoG: false,
+        Verificado: false,
+        FechaV: '',
+        Country: 'Canada',
+        FechaSignIn: 'December 2024',
+        ClassModalP: 'JavierNP',
+
+        DataStatsP: [
+            {
+                Post: '',
+                Followers: '',
+                Following: '',
+            }
+        ]
 
     },
     {
@@ -45,6 +63,11 @@ const DataContents = [
         classNameF: 'MiguelAF',
         BoleanoF: false,
         BoleanoG: false,
+        Verificado: true,
+        FechaV: 'November 2020',
+        Country: 'Republica Dominicana',
+        FechaSignIn: 'July 2018',
+        ClassModalP: 'MiguelAP',
     },
     {
         FotoPerfil: PixarAnimation,
@@ -57,6 +80,11 @@ const DataContents = [
         classNameF: 'Batuce52F',
         BoleanoF: false,
         BoleanoG: false,
+        Verificado: true,
+        FechaV: 'December 2024',
+        Country: 'Francia',
+        FechaSignIn: 'June 2014',
+        ClassModalP: 'Batuce52P',
     },
     
 ]
