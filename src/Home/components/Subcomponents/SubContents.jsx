@@ -1,18 +1,21 @@
-// import RestarMenu from "../func/RestarMenu";
 import ModalThree from "../func/Modalthree";
-
+import ModalPerfil from "./func/Modalperfil";
 
 const SubContents = (props) => {
 
 
-        const Modal = () => {
+        const modalthree = () => {
             ModalThree(props.Number);
         };
 
+        const modalperfil = () => {
+            ModalPerfil(props.Number)
+        }; 
+
         return(
         <div className={`CC__div1 ${props.className}`}>
-            <div className="CC__div1_header">
-                <div className="CC__div1_header_dv1">
+            <div className={`CC__div1_header ${props.ClassModalP}`} >
+                <div className="CC__div1_header_dv1" onMouseOver={modalperfil}>
                     <span className="Span1">
                         <img src={props.FotoPerfil} alt={props.UserName} />
                     </span>
@@ -23,7 +26,7 @@ const SubContents = (props) => {
                 </div>
                 <div className={`CC__div1_header_dv2 `}>
                     <span className={props.classNameF}></span>
-                    <span id='Modalthree' onClick={Modal}>...</span>
+                    <span id='Modalthree' onClick={modalthree}>...</span>
                 </div>
             </div>
             <div className="CC__div1_publicacion">
