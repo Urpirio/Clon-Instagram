@@ -25,6 +25,14 @@ const DataContents = [
         FechaSignIn: 'November 2022',
         ClassModalP: 'Johan009P',
 
+        DataStatsP: [
+            {
+                Post: '',
+                Followers: '',
+                Following: '',
+            }//apartado que mostrara las estadisticas del usuario.
+        ],
+
     },
     {
         FotoPerfil: HombreR,
@@ -48,7 +56,7 @@ const DataContents = [
                 Post: '',
                 Followers: '',
                 Following: '',
-            }
+            }//apartado que mostrara las estadisticas del usuario.
         ]
 
     },
@@ -68,6 +76,14 @@ const DataContents = [
         Country: 'Republica Dominicana',
         FechaSignIn: 'July 2018',
         ClassModalP: 'MiguelAP',
+
+        DataStatsP: [
+            {
+                Post: '',
+                Followers: '',
+                Following: '',
+            }//apartado que mostrara las estadisticas del usuario.
+        ],
     },
     {
         FotoPerfil: PixarAnimation,
@@ -85,6 +101,14 @@ const DataContents = [
         Country: 'Francia',
         FechaSignIn: 'June 2014',
         ClassModalP: 'Batuce52P',
+
+        DataStatsP: [
+            {
+                Post: '',
+                Followers: '',
+                Following: '',
+            }//apartado que mostrara las estadisticas del usuario.
+        ],
     },
     
 ]
