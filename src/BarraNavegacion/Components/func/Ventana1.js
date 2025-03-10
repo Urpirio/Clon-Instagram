@@ -17,7 +17,7 @@ const Ventana1 = () => {//search
 
     const LargoArray = DataContents.length;
     for(let x = 0; x < LargoArray; x++){
-    DataContents[x].BoleanoG = false;
+    DataContents[x].BoleanoGotopost = false;
 }
 };
 export default Ventana1;
