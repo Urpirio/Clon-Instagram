@@ -1,6 +1,5 @@
-// import React from 'react';
+import React from 'react';
 import HomeStructure from "./Home/HomeStructure";
-// import Bnavegacion from "./BarraNavegacion/Components/Bnavegacion"
 import Search from "./BarraNavegacion/Components/Search";
 import './Structure.less';
 import Explore from "./Explore/components/Explore";
@@ -8,7 +7,8 @@ import Reels from "./Reel/components/Reels";
 import Message from "./Message/components/Message";
 import Modal_threePoint from "./Home/components/Modal_threePoint";
 import Publication from "./Home/components/Publication";
-// import AvisoCopy from "./Extras/components/AvisoCopy";
+import ModalShare from "./Home/components/ModalShare";
+
 
 
 export default function Structure() {
@@ -16,7 +16,7 @@ export default function Structure() {
     <section className="Structure">
         <Search/>
         <Modal_threePoint/>
-        {/* <AvisoCopy/> */}
+        <ModalShare/>
         <HomeStructure/>
         <Explore/>
         <Reels/>
