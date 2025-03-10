@@ -2,6 +2,7 @@ import React from 'react';
 import '../style/Contents.less';
 import DataContents from "../Data/DataContents";
 import SubContents from './Subcomponents/SubContents';
+import ModalperfilLeave from './Subcomponents/func/ModalperfilLeave';
 
 
 export default function Contents() {
@@ -26,7 +27,7 @@ export default function Contents() {
 
 
   return (
-    <section className="Container_Contents">
+    <section className="Container_Contents" onMouseOutCapture={ModalperfilLeave}>
         {Datacontents}
     </section>
   )
