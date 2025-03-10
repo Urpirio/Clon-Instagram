@@ -7,15 +7,15 @@ const Add_to_Favorites = () => {
     const LargoArray = DataContents.length;
     for(let x = 0 ; x < LargoArray; x++){
         if(UserClick ==  DataContents[x].Number){
-           if(DataContents[x].BoleanoF != true){
-                DataContents[x].BoleanoF = true;
+           if(DataContents[x].BoleanoFavorito != true){
+                DataContents[x].BoleanoFavorito = true;
                 let Icon = document.createElement('i');
                 Icon.className = 'bx bxs-star';
                 let DC = document.querySelector(`.${DataContents[x].classNameF}`);
                 DC.append(Icon);
             
            }else{
-                DataContents[x].BoleanoF = false;
+                DataContents[x].BoleanoFavorito = false;
                 let DC = document.querySelector(`.${DataContents[x].classNameF}`);
                 DC.innerHTML = '';
            }
