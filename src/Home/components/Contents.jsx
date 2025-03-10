@@ -20,6 +20,9 @@ export default function Contents() {
             className = {DC.className}
             classNameF =  {DC.classNameF}
             ClassModalP = {DC.ClassModalP}
+            Like = {DC.Like}
+            SaveId = {DC.SaveId}
+            // SaveClass = {DC.SaveClass}
             />
         )
     })
