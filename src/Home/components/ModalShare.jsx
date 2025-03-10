@@ -3,9 +3,8 @@ import '../style/ModalShare.less';
 
 export default function ModalShare() {
   return (
-    <dialog className='ModalShare' open>
+    <dialog className='ModalShare'>
         <div className='ModalShare__div1'>
-          hola
         </div>
     </dialog>
   )
