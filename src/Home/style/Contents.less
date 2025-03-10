@@ -180,12 +180,31 @@
     .CC__div1_publicacion{
         width: 90%;
         display: flex;
-        justify-content: center;
+        align-items: last baseline;
+        justify-content: last baseline;
+        position: relative;
         // border: 1px solid black;
         img{
             height: 100%;
             width: 100%;
             border-radius: 5px;
+        }
+        .SavePublicacion{
+            height: 1.5cm;
+            width: 100%;
+            display: none;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            background: white;
+            
+            span{
+
+            }
+            a{
+                text-decoration: none;
+                color: #1877F2;
+            }
         }
     }
     .CC__div1_Opinion{
@@ -209,10 +228,8 @@
         }
         .Div2{
             padding: 5px;
-            svg{
-                height: 20px;
-                width: 20px;
-                
+            i{
+                font-size: 25px;
             }
         }
     }
