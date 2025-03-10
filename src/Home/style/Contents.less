@@ -25,6 +25,7 @@
         border-bottom: 1px solid 80808056;
         padding-left: 10px;
         padding-right: 10px;
+        position: relative;
         .CC__div1_header_dv1{
             display: flex;
             align-items: center;
@@ -63,6 +64,8 @@
                     color: grey;
                 }
             }
+
+
         }
         .CC__div1_header_dv2{
             
@@ -75,6 +78,102 @@
                 font-weight: 600;
                 margin-bottom: 16px;
             }
+        }
+        .CC__div1_header_dv3{
+            width: 8cm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center ;
+            position: absolute;
+            gap: 10px;
+            background: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-top: 270px;
+            padding: 10px;
+
+            .DivHeader{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .Span1{
+                    height: 70px;
+                    width: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: linear-gradient(red,orange,yellow);
+                    border-radius: 100%;
+                    cursor: pointer;
+                    img{
+                        height: 65px;
+                        width: 65px;
+                        border-radius: 100%;
+    
+                    }
+                }
+                .DivNames{
+                    display: flex;
+                    flex-direction: column;
+                    .UserName{
+                        font-weight: 600;
+                        font-size: 14px;
+                        cursor: pointer;
+                    }
+                    .CompleteName{
+                        font-size: 14px;
+                        color: #737373;
+                    }
+                }
+            }
+            .DivStatsPerfil{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                span{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    h4{
+                        margin: 0;
+                    }
+                }
+
+
+            }
+            .divbtn{
+                width: 100%;
+                // padding: 10px;
+                display: flex;
+                justify-content: space-around;
+                gap: 10px;
+                
+                button{
+                    height: 0.9cm;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 16px;
+                    border: none;
+                    border-radius: 10px;
+                    background: #0095F6;
+                    transition: 300ms;
+                    cursor: pointer;
+                    &:hover{
+                        background: #1877F2;
+                    }
+    
+    
+                }
+            }
+            
         }
 
     }
