@@ -1,4 +1,5 @@
 import React from 'react';
+// import BaseComponent from 'bootstrap/js/dist/base-component';
 import Structure from './Structure';
 import AvisoCopy from './Extras/components/AvisoCopy';
 
