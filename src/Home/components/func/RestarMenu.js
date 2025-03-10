@@ -47,7 +47,7 @@ const RestarMenu = () => {//Se encarga de volver todo a la normalidad despues de
                     if(UserClick == DataContents[x].Number){
                         let span3 = document.createElement('span');
                         span3.className = 'GSpan S3';
-                        span3.innerText = `${DataContents[x].BoleanoF ? 'Remove from favorites' : 'Add to favorites'}`;
+                        span3.innerText = `${DataContents[x].BoleanoFavorito  ? 'Remove from favorites' : 'Add to favorites'}`;
                         span3.addEventListener('click',()=>{
                         Add_to_Favorites();
                         });
@@ -67,13 +67,13 @@ const RestarMenu = () => {//Se encarga de volver todo a la normalidad despues de
                 const LargoArray = DataContents.length;
                 for(let x = 0; x < LargoArray ; x++){
                    if(DataContents[x].Number == UserClick){
-                    if(DataContents[x].BoleanoG != true){
+                    if(DataContents[x].BoleanoGotopost != true){
                         let span4 = document.createElement('span');
                         span4.className = 'GSpan S4';
                         span4.innerText = 'Go to post';
                         span4.addEventListener('click',()=>{
 
-                        // DataContents[x].BoleanoG = true;
+                        // DataContents[x].BoleanoGotopost = true;
                         GotoPost();
                         });
                         Modal_ThreeP_div1.append(span4);
