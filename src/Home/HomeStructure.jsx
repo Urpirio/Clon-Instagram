@@ -2,12 +2,16 @@
 import Header from "./components/Header"
 import Contents from "./components/Contents";
 import Perfil from "./components/perfil";
-import './HomeStructure.less'
+import './HomeStructure.less';
+
 
 export default function HomeStructure() {
+
+ 
+
   return (
-   <section className="HomeStructure V1">
-        <div className="HomeStructure__div1">
+   <section className="HomeStructure V1" >
+        <div className="HomeStructure__div1" >
             <Header/>
             <Contents/>
         </div>
