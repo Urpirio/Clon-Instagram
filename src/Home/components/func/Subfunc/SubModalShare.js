@@ -18,6 +18,10 @@ const SubModalShare = () => {
             });
             SpanC.className = 'SpanC';
             let Icon = document.createElement('i');
+            Icon.className = Data.results[0].ModalPerfil[x].Icon;
+            let Title = document.createElement('h4');
+            Title.innerText = Data.results[0].ModalPerfil[x].Title;
+            SpanC.append(Icon,Title);
             DivShare.append(SpanC);
   
           }else if(x == 1){//Facebook
