@@ -44,7 +44,7 @@ const GotoPost = () => {
             SpanThreeP.className = 'SpanThreeP';
             SpanThreeP.innerHTML = '<i>...</i>';
             SpanThreeP.addEventListener('click',()=>{
-                DataContents[x].BoleanoG = true;
+                DataContents[x].BoleanoGotopost = true;
                 UserClickG = DataContents[x].Number;
                 ModalThree();
             });
