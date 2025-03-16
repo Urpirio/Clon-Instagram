@@ -8,6 +8,7 @@ import Message from "./Message/components/Message";
 import Modal_threePoint from "./Home/components/Modal_threePoint";
 import Publication from "./Home/components/Publication";
 import ModalShare from "./Home/components/ModalShare";
+import ModalStory from './Home/components/ModalStory';
 
 
 
@@ -17,6 +18,7 @@ export default function Structure() {
         <Search/>
         <Modal_threePoint/>
         <ModalShare/>
+        <ModalStory/>
         <HomeStructure/>
         <Explore/>
         <Reels/>
