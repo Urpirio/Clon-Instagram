@@ -8,47 +8,201 @@ import CocoFotoPrince from '../Img/CocoFotoPirata.png';
 import CocoFotoRey from '../Img/CocoFotoRey.png';
 import CocoFotoXbox from '../Img/CocoFotoXbox.png';
 import CocoFotoPirata from '../Img/CocoFotoPirata.png';
+import ImgPrueba from '../Img/StoryImg/Img1.png';
+import ImgPrueba2 from '../Img/StoryImg/Img2.png';
+import ImgPrueba3 from '../Img/StoryImg/Img3.png';
+
 
 const DataStory = [
     {
         img: CocoFoto,
-        Name: 'Prueba',
+        Name: 'JoseM',
+        ID: 1,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba2,
+            },
+            {
+                img: ImgPrueba3,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoLlora,
-        Name: 'Prueba',
+        Name: 'Juan009',
+        ID: 2,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoMadrid,
-        Name: 'Prueba',
+        Name: 'Marian_0',
+        ID: 3,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoMago,
-        Name: 'Prueba',
+        Name: 'PedroD',
+        ID: 4,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoNavidad,
-        Name: 'Prueba',
+        Name: 'TuMala_01',
+        ID: 5,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoNormal,
-        Name: 'Prueba',
+        Name: 'Triplexx',
+        ID: 6,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoPrince,
-        Name: 'Prueba',
+        Name: 'MAria_XD',
+        ID: 7,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoRey,
-        Name: 'Prueba',
+        Name: 'TUReymon',
+        ID: 8,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoXbox,
-        Name: 'Prueba',
+        Name: 'Elmanuel52',
+        ID: 9,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     },
     {
         img: CocoFotoPirata,
-        Name: 'Prueba',
+        Name: 'Gokuuo',
+        ID: 10,
+        Storys: [
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+            {
+                img: ImgPrueba,
+            },
+        ]
     }
 ]
 export default DataStory;
