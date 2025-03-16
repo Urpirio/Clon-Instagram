@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     position: absolute;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-around;
     background: black;
@@ -11,7 +11,68 @@
         height: 100px;
     }
     .ModalStory_div1{
+        display: flex;
+        gap: 20px;
+        .ModalStory_div1_d1{
+            height: 6cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            position: relative;
+            border-radius: 10px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
 
+            }
+            span{
+                position: absolute;
+                background: linear-gradient(red,orange, yellow,);
+                height: 60px;
+                width: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 100%;
+                }
+            }
+        }
+        .ModalStory_div1_d2{
+            height: 6cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            position: relative;
+            border-radius: 10px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+
+            }
+            span{
+                position: absolute;
+                background: linear-gradient(red,orange, yellow,);
+                height: 60px;
+                width: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 100%;
+                }
+            }
+        }
     }
     .ModalStory_div2{
         position: relative;
@@ -38,11 +99,17 @@
             position: absolute;
             .MS_div1{
                 height: 5px;
-                width: 100%;
-                span{
+                width: 95%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                padding: 10px;
+                div{
                     height: 5px;
-                    width: 100%;
+                    width: 50%;
                     background: white;
+
                 }
             }
             .MS_div2{
@@ -97,17 +164,7 @@
     
                     }
                 }
-                
-                .MS_div1{
-                    height: 5px;
-                    width: 100%;
-                    // background: white;
-                   div{
-                    height: 5px;
-                    width: 100%;
-                    // background: white;
-                   }
-                }
+
             }
             .MS_div3{
                 width: 95%;
@@ -120,8 +177,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background: none;
-                    border: 1px solid gray;
+                    background: #8080801c;
+                    border: 1px solid white;
                     border-radius: 20px;
                     input{
                         width: 6cm;
@@ -130,8 +187,13 @@
                         background: none;
                         border: none;
                         outline: none;
+                        &::placeholder{
+                            color: aliceblue;
+                            
+                        }
                         
                     }
+                    
                 }
                 
                 .Span2{
@@ -152,11 +214,67 @@
         }
     }
     .ModalStory_div3{
+        display: flex;
+        gap: 20px;
         .ModalStory_div3_d1{
+            height: 6cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            position: relative;
+            border-radius: 10px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
 
+            }
+            span{
+                position: absolute;
+                background: linear-gradient(red,orange, yellow,);
+                height: 60px;
+                width: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 100%;
+                }
+            }
         }
         .ModalStory_div3_d2{
+            height: 6cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            position: relative;
+            border-radius: 10px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
 
+            }
+            span{
+                position: absolute;
+                background: linear-gradient(red,orange, yellow,);
+                height: 60px;
+                width: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 100%;
+                }
+            }
         }
     }
 }
